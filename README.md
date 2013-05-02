@@ -1,3 +1,3 @@
 # kingpin
 
-Boss around your cloud.
+Unleash your inner supervillain.
