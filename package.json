@@ -1,12 +1,12 @@
 {
-  "name": "kingpin",
+  "name": "mastermind",
   "version": "0.0.1",
   "description": "ERROR: No README.md file found!",
   "main": "lib/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": "https://github.com/zeekay/mastermind",
   "author": "",
   "license": "BSD",
   "dependencies": {

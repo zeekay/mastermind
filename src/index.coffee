@@ -1,1 +1,1 @@
-module.exports = new (require './kingpin')
+module.exports = new (require './mastermind')
