@@ -1,3 +1,3 @@
-# kingpin
+# mastermind
 
 Unleash your inner supervillain.

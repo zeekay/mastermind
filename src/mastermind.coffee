@@ -19,7 +19,7 @@ getName = (server) ->
     if tag.key == 'Name'
       return tag.value
 
-class Kingpin extends chainable
+class Mastermind extends chainable
   getServers: chainable (callback) ->
     aws.getServers (err, servers) =>
       return callback err if err?
@@ -51,4 +51,4 @@ class Kingpin extends chainable
 
     , callback
 
-module.exports = Kingpin
+module.exports = Mastermind

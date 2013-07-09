@@ -1,17 +1,17 @@
 should  = require('chai').should()
-kingpin = require '../../'
+mastermind = require '../../'
 
-describe 'kingpin', ->
+describe 'mastermind', ->
   describe.skip '#getServers', ->
     it 'should list all instances', (done) ->
-      kingpin.getServers (err, servers) ->
+      mastermind.getServers (err, servers) ->
         for server in servers
           console.log server.name
         done()
 
   describe '#exec', ->
     it 'should run command on all instances', (done) ->
-      kingpin
+      mastermind
         .getServers()
         .filter((server) -> (server.name.indexOf 'adage') != -1)
         .exec 'echo hello', (err, out) ->
