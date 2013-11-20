@@ -1,6 +1,6 @@
 {
   "name": "mastermind",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Unleash your inner supervillain. Cloud automation for evil geniuses.",
   "main": "lib/",
   "scripts": {
