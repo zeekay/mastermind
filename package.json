@@ -6,8 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/zeekay/mastermind",
-  "author": "",
+  "homepage": "http://github.com/zeekay/mastermind",
+  "bugs": {
+    "url": "http://github.com/zeekay/mastermind/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zeekay/mastermind"
+  },
+  "author": {
+    "name": "Zach Kelling",
+    "email": "zk@monoid.io",
+    "url": "http://zeekay.io"
+  },
   "license": "BSD",
   "dependencies": {
     "pkgcloud": "~0.6.7-1",
