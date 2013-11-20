@@ -1,10 +1,10 @@
 {
   "name": "mastermind",
   "version": "0.1.1",
-  "description": "cloud automation and deployment",
+  "description": "Unleash your inner supervillain. Cloud automation for evil geniuses.",
   "main": "lib/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cake test"
   },
   "homepage": "http://github.com/zeekay/mastermind",
   "bugs": {
